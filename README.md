@@ -7,7 +7,7 @@ This project aims to predict the prices of Ford cars using machine learning mode
 
 - **Data Preprocessing**: Cleaned the dataset, handled missing values, and performed feature engineering.
 - **Exploratory Data Analysis (EDA)**: Visualized key relationships between car features (like mileage, year, and fuel type) and price.
-- **Machine Learning Models**: Trained models including Linear Regression, Decision Trees, and Random Forest for price prediction.
+- **Machine Learning Models**: Trained models including Linear Regression, Decision Trees, and xgBoost for price prediction.
 - **Model Evaluation**: Evaluated model performance using metrics such as RMSE, MAE, and R-squared.
 
 ## ⚙️ Requirements
@@ -27,6 +27,18 @@ Google Colab: Open the notebook directly in Google Colab by uploading the .ipynb
 Run the Notebook: Execute each cell sequentially to preprocess the data, visualize relationships, and train the machine learning models.
 
 Analyze the Results: Evaluate the model’s performance metrics to see how well it predicts car prices.
+
+🔧 Data Preprocessing
+
+Before building the machine learning models, several preprocessing steps were applied to clean and prepare the data:
+
+Handling Missing Values: Removed or imputed missing data in critical columns to ensure model performance is not affected by incomplete data.
+
+Encoding Categorical Features: Transformed categorical variables such as fuel type, transmission type, and other non-numeric fields using techniques like one-hot encoding.
+
+Feature Scaling: Applied scaling (e.g., StandardScaler) to numeric features like mileage and car age to normalize the data for better model performance.
+
+Train-Test Split: Split the dataset into training and testing sets to evaluate model performance using unseen data.
 
 📊 Exploratory Data Analysis (EDA)
 
